@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+}
+
+#app-container{
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns-container{
+  font-size: 0;
+}
+
+.background{
+  background-image: url("../images/hero-splash-roommates-fun.jpg");
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.search{
+  padding: 20px;
+  background: rgba(51,51,51,.70);
+  text-align: center;
+  color: #fff;
+}
+
+.search h1{
+  font-size: 36px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.search p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.search input{
+  width: 360px;
+  height: 40px;
+}
+.search button{
+  border: 1px solid #29BBAF;
+  background: #29BBAF;
+  color: white;
+  width: 70px;
+  height: 40px;
+}
+.city{
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  padding: 20px;
+  font-size: 14px;
+  /*margin-left: 20px;*/
+}
+
+.city img{
+  width: 70%;
+  display: block;
+  margin-left: 20px;
+}
+
+.city p{
+  display: block;
+  margin-left: 20px;
+  background-color: #333333;
+  color: white;
+  width: 70%;
+  margin-top: 0px;
+}
+.button-column{
+  text-align: center;
+  padding: 20px
+}
+
+.button-column button{
+  border: 3px solid #F55E05;
+  background: white;
+  color: #F55E05;
+  width: 100px;
+  height: 50px;
+}
+
+.room-column,
+.listings-column{
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  background-color: #DDDDDD;
+  height: 450px;
+  padding: 50px;
+}
+
+.room-column{
+  width: 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.text{
+  border: 1px solid black;
+  background-color: white;
+  text-indent: 5%;
+}
+.room-column img{
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-bottom: none;
+}
+.listings-column{
+  width: 50%;
+}
+
+.links-column{
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  width: 33.3333%;
+  background: #333333;
+  text-indent: 5%;
+}
+.links-column h1{
+  color: white;
+  font-weight: 200;
+}
+
+.links-column p{
+  color: #8F8F8F;
+}
+
+.icon-column{
+  width: 100%
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  background: #333333;
+  text-align: right;
+  padding: 20px;
+}
+
+.icon-column img{
+  height: 50px;
+  margin: 10px;
+}
