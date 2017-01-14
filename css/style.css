@@ -7,10 +7,11 @@ body{
 }
 
 #app-container{
-  max-width: 1080px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 .columns-container{
   font-size: 0;
@@ -20,6 +21,7 @@ body{
   background-image: url("../images/hero-splash-roommates-fun.jpg");
   background-size: cover;
   padding: 100px 0;
+  margin-top: 90px;
 }
 
 .search{
@@ -98,13 +100,17 @@ body{
 }
 
 .room-column{
+  position: relative;
   width: 50%;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   padding-right: 80px;
   padding-left: 80px;
 }
 .text{
+  width: 60%;
+  margin-left: 50px;
+  position: relative;
   border: 1px solid black;
   background-color: white;
   text-indent: 5%;
@@ -116,6 +122,14 @@ body{
   margin-right: auto;
   border: 1px solid black;
   border-bottom: none;
+}
+.heart i{
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  color: red;
+  font-size: 40px;
+
 }
 .listings-column{
   width: 50%;
@@ -147,8 +161,98 @@ body{
   text-align: right;
   padding: 20px;
 }
-
 .icon-column img{
   height: 50px;
   margin: 10px;
+}
+
+/*part 2*/
+.help-box {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  height: 120px;
+  width: 240px;
+  border: 4px #29bbaf solid;
+  background: white;
+}
+
+.arrow{
+  position: absolute;
+  right: -4px;
+  top: -35%;
+  width: 16%;
+  border: 4px solid #29bbaf;
+  background-color: #29bbaf;
+  text-align: center;
+}
+.arrow i{
+  width: 100%;
+  color: white;
+  font-size: 35px;
+  margin-top: -5px;
+  padding-bottom: 0px;
+
+}
+.help-box h1{
+  font-size: 20px;
+  font-weight: 400;
+  background: #b0e6e2;
+  margin-top: 0px;
+}
+.tiffany img{
+  position: absolute;
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+.help-box p{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 12px;
+  transform: translateX(-10%) translateY(-50%);;
+}
+.help-box span{
+  color: #f55e05;
+}
+.header-box{
+  position: absolute; top: 0;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 90px;
+  font-size: medium;
+  background: #f55e05;
+}
+.header-box img{
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 30px;
+  width: 120px;
+  height: 50px;
+}
+.links{
+  float: right;
+  color: white;
+  margin-right: 30px;
+  margin-top: 35px;
+  font-size: medium;
+}
+.links button{
+  border: 2px #29BBaf solid;
+  background: #ff5e05;
+  margin-top: -2px;
+  font-size: medium;
+  color: #29bbaf;
+}
+.links button:hover{
+  background: #29bbaf;
+  color: #ff5e05;
 }
